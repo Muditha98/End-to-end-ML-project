@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mlProject
+Version: 0.0.0
+Summary: A small python package for ml apps
+Home-page: https://github.com/Muditha98/End-to-end-ML-project
+Author: Muditha98
+Author-email: dhananjanarathnayake123@gmail.com
+Project-URL: Bug Tracker, https://github.com/Muditha98/End-to-end-ML-project/issues
+
+Wine quality prediction
