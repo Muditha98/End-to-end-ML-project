@@ -34,3 +34,302 @@ Source-Age: 0
 [2024-04-15 15:56:07,527: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2024-04-16 08:15:01,540: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 08:15:01,562: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 08:15:01,575: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-16 08:15:01,583: INFO: common: created directory at: artifacts]
+[2024-04-16 08:17:28,421: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 08:17:28,423: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 08:17:28,427: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-16 08:17:28,436: INFO: common: created directory at: artifacts]
+[2024-04-16 08:23:00,971: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 08:23:00,975: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 08:23:00,985: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-16 08:23:00,987: INFO: common: created directory at: artifacts]
+[2024-04-17 18:20:20,654: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 18:20:20,659: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 18:20:20,678: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 18:20:20,683: INFO: common: created directory at: artifacts]
+[2024-04-17 18:27:54,966: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 18:27:54,968: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 18:27:54,973: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 18:27:54,976: INFO: common: created directory at: artifacts]
+[2024-04-17 18:30:23,024: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 18:30:23,040: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 18:30:23,046: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 18:30:23,047: INFO: common: created directory at: artifacts]
+[2024-04-17 18:41:20,020: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 18:41:20,023: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 18:41:20,027: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 18:41:20,028: INFO: common: created directory at: artifacts]
+[2024-04-17 18:45:27,336: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 18:45:27,339: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 18:45:27,344: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 18:45:27,346: INFO: common: created directory at: artifacts]
+[2024-04-17 18:49:12,563: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 18:49:12,565: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 18:49:12,571: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 18:49:12,574: INFO: common: created directory at: artifacts]
+[2024-04-17 19:11:40,100: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-17 19:11:40,100: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:11:40,100: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:11:40,100: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:11:40,100: INFO: common: created directory at: artifacts]
+[2024-04-17 19:11:40,116: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-17 19:11:40,117: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-04-17 19:11:40,123: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-04-17 19:11:40,123: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-17 19:11:40,123: ERROR: main: name 'DataValidationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\Dhananjana\Documents\ML_projects_5_day\End-to-end-ML-project\main.py", line 19, in <module>
+    data_ingestion = DataValidationTrainingPipeline()
+NameError: name 'DataValidationTrainingPipeline' is not defined
+[2024-04-17 19:13:44,282: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-17 19:13:44,282: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:13:44,282: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:13:44,296: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:13:44,297: INFO: common: created directory at: artifacts]
+[2024-04-17 19:13:44,298: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-17 19:13:47,010: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "C:\Users\Dhananjana\Documents\ML_projects_5_day\End-to-end-ML-project\main.py", line 10, in <module>
+    obj.main()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\components\data_ingestion.py", line 19, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\Dhananjana\anaconda3\envs\mlproject\lib\urllib\request.py", line 251, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-04-17 19:15:14,636: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-17 19:15:14,636: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:15:14,636: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:15:14,636: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:15:14,636: INFO: common: created directory at: artifacts]
+[2024-04-17 19:15:14,636: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-17 19:15:16,684: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "C:\Users\Dhananjana\Documents\ML_projects_5_day\End-to-end-ML-project\main.py", line 10, in <module>
+    obj.main()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\components\data_ingestion.py", line 19, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\Dhananjana\anaconda3\envs\mlproject\lib\urllib\request.py", line 251, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-04-17 19:15:43,447: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-17 19:15:43,462: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:15:43,462: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:15:43,462: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:15:43,462: INFO: common: created directory at: artifacts]
+[2024-04-17 19:15:43,462: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-17 19:15:45,582: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "C:\Users\Dhananjana\Documents\ML_projects_5_day\End-to-end-ML-project\main.py", line 10, in <module>
+    obj.main()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\components\data_ingestion.py", line 19, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\Dhananjana\anaconda3\envs\mlproject\lib\urllib\request.py", line 251, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-04-17 19:17:06,229: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-17 19:17:06,229: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:17:06,229: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:17:06,229: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:17:06,229: INFO: common: created directory at: artifacts]
+[2024-04-17 19:17:06,245: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-17 19:17:08,387: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "C:\Users\Dhananjana\Documents\ML_projects_5_day\End-to-end-ML-project\main.py", line 10, in <module>
+    obj.main()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\components\data_ingestion.py", line 19, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\Dhananjana\anaconda3\envs\mlproject\lib\urllib\request.py", line 251, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-04-17 19:18:32,477: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:18:32,482: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:18:32,486: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:18:32,489: INFO: common: created directory at: artifacts]
+[2024-04-17 19:18:32,491: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-17 19:19:33,552: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:19:33,555: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:19:33,560: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:19:33,563: INFO: common: created directory at: artifacts]
+[2024-04-17 19:19:33,565: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-17 19:19:36,159: INFO: 3447005916: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 21964
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "4892c1e3bb28cbcceb709c4e5370051649485395b56e451638507ec50b1cd27e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2F78:3587CD:4C4769:638CF7:661FD23A
+Accept-Ranges: bytes
+Date: Wed, 17 Apr 2024 13:50:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: HIT
+X-Cache-Hits: 4
+X-Timer: S1713361816.269897,VS0,VE274
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 830204ae70ef6a0ac609e0ad8e742d3d0603eade
+Expires: Wed, 17 Apr 2024 13:55:16 GMT
+Source-Age: 0
+
+]
+[2024-04-17 19:20:09,331: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-17 19:20:09,331: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:20:09,331: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:20:09,331: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:20:09,331: INFO: common: created directory at: artifacts]
+[2024-04-17 19:20:09,342: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-17 19:20:09,342: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-04-17 19:20:09,343: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-04-17 19:20:09,343: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-17 19:20:09,351: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:20:09,352: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:20:09,355: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:20:09,357: INFO: common: created directory at: artifacts]
+[2024-04-17 19:20:09,357: ERROR: main: "'ConfigBox' object has no attribute 'data_validation'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Dhananjana\Documents\ML_projects_5_day\End-to-end-ML-project\main.py", line 21, in <module>
+    data_ingestion.main()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\config\configuration.py", line 39, in get_data_validation_config
+    config = self.config.data_validation
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
+[2024-04-17 19:21:05,909: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-17 19:21:05,914: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:21:05,914: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:21:05,914: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:21:05,914: INFO: common: created directory at: artifacts]
+[2024-04-17 19:21:05,914: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-17 19:21:05,914: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-04-17 19:21:05,930: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-04-17 19:21:05,930: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-17 19:21:05,935: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 19:21:05,937: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 19:21:05,940: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-17 19:21:05,940: INFO: common: created directory at: artifacts]
+[2024-04-17 19:21:05,943: ERROR: main: "'ConfigBox' object has no attribute 'data_validation'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Dhananjana\Documents\ML_projects_5_day\End-to-end-ML-project\main.py", line 21, in <module>
+    data_ingestion.main()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\config\configuration.py", line 39, in get_data_validation_config
+    config = self.config.data_validation
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
