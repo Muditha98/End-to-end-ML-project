@@ -333,3 +333,145 @@ Traceback (most recent call last):
   File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
   File "box\box.py", line 552, in box.box.Box.__getattr__
 box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
+[2024-04-21 23:37:57,058: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-21 23:37:57,073: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-21 23:37:57,073: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-21 23:37:57,090: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-21 23:37:57,090: INFO: common: created directory at: artifacts]
+[2024-04-21 23:37:57,090: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-21 23:37:57,090: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-04-21 23:37:57,121: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-04-21 23:37:57,121: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-21 23:37:57,121: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-21 23:37:57,130: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-21 23:37:57,130: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-21 23:37:57,130: INFO: common: created directory at: artifacts]
+[2024-04-21 23:37:57,130: ERROR: main: "'ConfigBox' object has no attribute 'data_validation'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Dhananjana\Documents\ML_projects_5_day\End-to-end-ML-project\main.py", line 21, in <module>
+    data_ingestion.main()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\config\configuration.py", line 39, in get_data_validation_config
+    config = self.config.data_validation
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
+[2024-04-21 23:39:04,268: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-21 23:39:04,268: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-21 23:39:04,283: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-21 23:39:04,299: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-21 23:39:04,299: INFO: common: created directory at: artifacts]
+[2024-04-21 23:39:04,299: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-21 23:39:04,299: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-04-21 23:39:04,314: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-04-21 23:39:04,331: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-21 23:39:04,331: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-21 23:39:04,331: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-21 23:39:04,350: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-21 23:39:04,354: INFO: common: created directory at: artifacts]
+[2024-04-21 23:39:04,354: ERROR: main: "'ConfigBox' object has no attribute 'data_validation'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Dhananjana\Documents\ML_projects_5_day\End-to-end-ML-project\main.py", line 21, in <module>
+    data_ingestion.main()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+  File "c:\users\dhananjana\documents\ml_projects_5_day\end-to-end-ml-project\src\mlProject\config\configuration.py", line 39, in get_data_validation_config
+    config = self.config.data_validation
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
